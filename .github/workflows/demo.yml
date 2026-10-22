@@ -1,0 +1,39 @@
+name: Demo GIF
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/assets/render-demo.py
+      - .github/assets/render-visual-demo.py
+      - .github/assets/demo/**
+      - .github/assets/requirements.txt
+      - .github/workflows/demo.yml
+      - examples/**
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  render:
+    name: Render product-brain overview
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - run: npm ci
+      - run: python -m pip install -r .github/assets/requirements.txt
+      - run: node examples/render-spec/run.mjs > .github/assets/demo/render-spec.txt
+      - run: python .github/assets/render-visual-demo.py
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: demo-gif
+          path: .github/assets/demo.gif
+          if-no-files-found: error

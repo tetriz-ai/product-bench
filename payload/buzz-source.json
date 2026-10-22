@@ -1,0 +1,26 @@
+{
+  "repository": null,
+  "branch": "main",
+  "hosts": [
+    "claude",
+    "codex"
+  ],
+  "commands": [
+    "buzz-init",
+    "buzz",
+    "buzz-daily"
+  ],
+  "required_files": [
+    ".claude-plugin/plugin.json",
+    "SKILL.md",
+    "scripts/install-codex.py",
+    "commands/buzz-init.md",
+    "commands/buzz.md",
+    "commands/buzz-daily.md",
+    "agents/humanizer.md",
+    "rubrics/hn.md",
+    "rubrics/ph.md",
+    "rubrics/reddit.md",
+    "SETUP.md"
+  ]
+}

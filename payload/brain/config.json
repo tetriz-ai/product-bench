@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "freshness_days": 30,
+  "output_dir": "outputs",
+  "analytics": { "provider": "fixture", "max_rows": 1000, "max_bytes": 1073741824 },
+  "routing": {
+    "spec": { "soft": ["hypothesis", "scope-check"] }
+  }
+}

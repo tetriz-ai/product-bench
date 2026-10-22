@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm ci:*)",
+      "Bash(npm run check:*)",
+      "Bash(npm test:*)",
+      "Bash(npm run test:install:*)",
+      "Bash(npm run generate:*)",
+      "Bash(node scripts/run-examples.mjs:*)"
+    ]
+  }
+}

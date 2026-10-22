@@ -1,0 +1,9 @@
+# Validated CI resolution; bundled skills retain their compatibility ranges.
+-r ../payload/skills/slide-deck/requirements.txt
+-r ../payload/skills/visual-doc-creation/requirements.txt
+Markdown==3.11
+pypdf==6.20.1
+playwright==1.63.0
+greenlet==3.5.6
+pyee==13.0.1
+typing_extensions==4.16.0

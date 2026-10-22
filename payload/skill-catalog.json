@@ -1,0 +1,101 @@
+{
+  "source": "Product Bench bundled skills",
+  "skills": [
+    {
+      "name": "grill-me",
+      "entrypoint": "skills/grill-me/SKILL.md"
+    },
+    {
+      "name": "plain-english",
+      "entrypoint": "skills/plain-english/SKILL.md"
+    },
+    {
+      "name": "seo-alert-manager",
+      "entrypoint": "skills/seo-alert-manager/SKILL.md"
+    },
+    {
+      "name": "seo-backlink-analyzer",
+      "entrypoint": "skills/seo-backlink-analyzer/SKILL.md"
+    },
+    {
+      "name": "seo-competitor-analysis",
+      "entrypoint": "skills/seo-competitor-analysis/SKILL.md"
+    },
+    {
+      "name": "seo-content-gap-analysis",
+      "entrypoint": "skills/seo-content-gap-analysis/SKILL.md"
+    },
+    {
+      "name": "seo-content-quality-auditor",
+      "entrypoint": "skills/seo-content-quality-auditor/SKILL.md"
+    },
+    {
+      "name": "seo-content-refresher",
+      "entrypoint": "skills/seo-content-refresher/SKILL.md"
+    },
+    {
+      "name": "seo-content-writer",
+      "entrypoint": "skills/seo-content-writer/SKILL.md"
+    },
+    {
+      "name": "seo-domain-authority-auditor",
+      "entrypoint": "skills/seo-domain-authority-auditor/SKILL.md"
+    },
+    {
+      "name": "seo-entity-optimizer",
+      "entrypoint": "skills/seo-entity-optimizer/SKILL.md"
+    },
+    {
+      "name": "seo-geo-content-optimizer",
+      "entrypoint": "skills/seo-geo-content-optimizer/SKILL.md"
+    },
+    {
+      "name": "seo-internal-linking-optimizer",
+      "entrypoint": "skills/seo-internal-linking-optimizer/SKILL.md"
+    },
+    {
+      "name": "seo-keyword-research",
+      "entrypoint": "skills/seo-keyword-research/SKILL.md"
+    },
+    {
+      "name": "seo-memory-management",
+      "entrypoint": "skills/seo-memory-management/SKILL.md"
+    },
+    {
+      "name": "seo-meta-tags-optimizer",
+      "entrypoint": "skills/seo-meta-tags-optimizer/SKILL.md"
+    },
+    {
+      "name": "seo-on-page-seo-auditor",
+      "entrypoint": "skills/seo-on-page-seo-auditor/SKILL.md"
+    },
+    {
+      "name": "seo-performance-reporter",
+      "entrypoint": "skills/seo-performance-reporter/SKILL.md"
+    },
+    {
+      "name": "seo-rank-tracker",
+      "entrypoint": "skills/seo-rank-tracker/SKILL.md"
+    },
+    {
+      "name": "seo-schema-markup-generator",
+      "entrypoint": "skills/seo-schema-markup-generator/SKILL.md"
+    },
+    {
+      "name": "seo-serp-analysis",
+      "entrypoint": "skills/seo-serp-analysis/SKILL.md"
+    },
+    {
+      "name": "seo-technical-seo-checker",
+      "entrypoint": "skills/seo-technical-seo-checker/SKILL.md"
+    },
+    {
+      "name": "slide-deck",
+      "entrypoint": "skills/slide-deck/SKILL.md"
+    },
+    {
+      "name": "visual-doc-creation",
+      "entrypoint": "skills/visual-doc-creation/SKILL.md"
+    }
+  ]
+}

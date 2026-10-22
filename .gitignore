@@ -1,0 +1,27 @@
+node_modules/
+*.tgz
+coverage/
+reports/
+.product-bench/runtime/
+.product-bench/outputs/
+.product-bench/state/
+.product-bench/integrations/
+.product-bench-install.json
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Local acceptance harness and validation notes
+scripts/workflow-e2e*.mjs
+scripts/e2e/
+docs/WORKFLOW-VALIDATION.md
+
+# Generated real-host test artifacts, transcripts, and execution receipts
+/test-results/
+/host-test-results/
+/product-bench-*-results/
+
+*.swp
+*.swo
+.idea/

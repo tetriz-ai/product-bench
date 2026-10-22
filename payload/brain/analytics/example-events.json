@@ -1,0 +1,8 @@
+[
+  { "at": "2026-01-03", "account": "Northstar", "user": "u1", "event": "signed_up" },
+  { "at": "2026-01-04", "account": "Northstar", "user": "u1", "event": "activated" },
+  { "at": "2026-01-04", "account": "Northstar", "user": "u2", "event": "signed_up" },
+  { "at": "2026-01-05", "account": "Harbor", "user": "u3", "event": "signed_up" },
+  { "at": "2026-01-06", "account": "Harbor", "user": "u3", "event": "activated" },
+  { "at": "2026-01-07", "account": "Northstar", "user": "u2", "event": "activated" }
+]

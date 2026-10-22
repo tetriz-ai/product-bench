@@ -1,0 +1,53 @@
+{
+  "name": "product-bench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "product-bench": "./product-bench.mjs"
+  },
+  "scripts": {
+    "test": "node --test *.test.mjs",
+    "check": "node generate.mjs --check && node check-package.mjs",
+    "generate": "node generate.mjs",
+    "test:install": "node scripts/install-smoke.mjs",
+    "test:hosts": "node scripts/host-workflow-smoke.mjs",
+    "test:ci": "npm run check && npm test && npm run test:install"
+  },
+  "description": "Local CLI and product-workflow bundle for Claude Code and Codex, with reviewed repository context, freshness checks, source proposals, and fictional analytics.",
+  "license": "MIT",
+  "files": [
+    "analytics.mjs",
+    "path-safety.mjs",
+    "upstream-buzz.mjs",
+    "cli.mjs",
+    "details.mjs",
+    "freshness-hook.mjs",
+    "installer.mjs",
+    "privacy.mjs",
+    "product-bench.mjs",
+    "sync-state.mjs",
+    "workflows.mjs",
+    "scripts/legacy-*.mjs",
+    "payload/",
+    "docs/",
+    "INSTALL-AGENT.md",
+    "RELEASE.md",
+    "THIRD-PARTY-NOTICES.md",
+    "review-lenses.mjs",
+    "review-prompts.mjs",
+    "render-document.mjs",
+    "LICENSE",
+    "NOTICE",
+    "CODE_OF_CONDUCT.md",
+    "SECURITY.md",
+    "CONTRIBUTORS.md",
+    "CONTRIBUTING.md",
+    "CHANGELOG.md",
+    "upstream-import.mjs",
+    "upstream-content.mjs"
+  ]
+}

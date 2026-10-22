@@ -1,0 +1,43 @@
+{
+  "kind": "brain",
+  "accent": "#6750be",
+  "brand": "PRODUCT BENCH",
+  "titles": [
+    "Give your agents a product brain.",
+    "One brain. Every product move.",
+    "From evidence to a sharper spec.",
+    "A brain your team keeps improving."
+  ],
+  "inputs": [
+    "Customers",
+    "Product",
+    "Market",
+    "Strategy",
+    "Engineering",
+    "Decisions"
+  ],
+  "outputs": [
+    "Research",
+    "Strategy",
+    "Specs",
+    "GTM",
+    "Content",
+    "Analytics"
+  ],
+  "footers": [
+    "Illustrative workflow \u00b7 shared, human-reviewed context",
+    "Illustrative capabilities \u00b7 content and live data need their configured integrations",
+    "Fictional spec \u00b7 actual offline render checked \u00b7 no live model session",
+    "Context changes are proposed, reviewed and explicitly applied"
+  ],
+  "evidence": [
+    {
+      "path": ".github/assets/demo/render-spec.txt",
+      "contains": "8 sections; evidence gaps preserved"
+    },
+    {
+      "path": "docs/examples/spec.md",
+      "contains": "Resumable contact-list imports"
+    }
+  ]
+}

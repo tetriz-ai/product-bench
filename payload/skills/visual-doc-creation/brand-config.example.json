@@ -1,0 +1,13 @@
+{
+  "name": "Example",
+  "tagline": "Neutral layout preview",
+  "sender": "",
+  "website": "",
+  "confidentiality": "Draft \u00b7 Neutral preview",
+  "display_font": "Arial, sans-serif",
+  "body_font": "Arial, sans-serif",
+  "tokens": {
+    "t500": "#64748b",
+    "t900": "#1e293b"
+  }
+}

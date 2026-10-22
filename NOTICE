@@ -1,0 +1,27 @@
+Copyright 2026 Workloom Solutions Private Limited
+Product Bench
+
+Project-owned material is licensed under the MIT License in LICENSE.
+
+This repository includes SEO & GEO Skills Library material by Aaron He Zhu,
+Copyright 2024 Aaron He Zhu, licensed under Apache License 2.0:
+https://github.com/aaron-he-zhu/seo-geo-claude-skills
+
+The affected payload/skills/seo-* directories, versions, modifications, and
+shared dependency revision are listed in THIRD-PARTY-NOTICES.md and
+docs/THIRD-PARTY-PROVENANCE.json. The full Apache license is bundled at
+payload/skills/seo-memory-management/upstream-shared/LICENSE.
+
+The adapted CITE and CORE-EEAT references include the following MIT material:
+- cite-domain-rating, Copyright (c) 2026 Aaron. Source:
+  https://github.com/aaron-he-zhu/cite-domain-rating/tree/2e669c5c801aca6bc8c5f5df3b94ac734f00ff52
+  Full notice: payload/skills/seo-memory-management/upstream-shared/CITE-LICENSE
+- core-eeat-content-benchmark, Copyright (c) 2026 Aaron. Source:
+  https://github.com/aaron-he-zhu/core-eeat-content-benchmark/tree/2a04c2f7c0010d6ed2102ff606f6032d4267b0dc
+  Scope also includes the O05 mapping in payload/skills/seo-schema-markup-generator/SKILL.md.
+  Full notice: payload/skills/seo-memory-management/upstream-shared/CORE-EEAT-LICENSE
+
+CODE_OF_CONDUCT.md is adapted from Contributor Covenant 2.1,
+https://www.contributor-covenant.org/version/2/1/code_of_conduct/, under CC BY 4.0,
+https://creativecommons.org/licenses/by/4.0/. Its Enforcement and Enforcement
+Guidelines sections and associated Mozilla attribution are removed.

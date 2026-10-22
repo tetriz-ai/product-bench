@@ -1,0 +1,564 @@
+{
+  "schema_version": 1,
+  "library": "SEO & GEO Skills Library",
+  "repository": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
+  "copyright": "2024 Aaron He Zhu",
+  "license": "Apache-2.0",
+  "license_path": "payload/skills/seo-memory-management/upstream-shared/LICENSE",
+  "skills": [
+    {
+      "name": "seo-alert-manager",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-backlink-analyzer",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-competitor-analysis",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-content-gap-analysis",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-content-quality-auditor",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-content-refresher",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-content-writer",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-domain-authority-auditor",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-entity-optimizer",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-geo-content-optimizer",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-internal-linking-optimizer",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-keyword-research",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-memory-management",
+      "declared_version": "7.0.0"
+    },
+    {
+      "name": "seo-meta-tags-optimizer",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-on-page-seo-auditor",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-performance-reporter",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-rank-tracker",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-schema-markup-generator",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-serp-analysis",
+      "declared_version": "6.0.0"
+    },
+    {
+      "name": "seo-technical-seo-checker",
+      "declared_version": "6.0.0"
+    }
+  ],
+  "modifications": [
+    "Preserve complete SEO directories and all original frontmatter values; move host-incompatible top-level keys into metadata",
+    "Resolve local resources and installed SEO skill handoffs locally",
+    "Resolve host context/voice/output from approved caller and installation configuration",
+    "Distinguish optional provider data and unavailable shared implementations from bundled skills",
+    "Normalize inherited Markdown trailing whitespace without changing instruction content",
+    "Add explicit per-skill Product Bench modification declarations and distribute THIRD-PARTY-NOTICES.md with the runtime",
+    "Reserved synthetic example domains, fictional role/vendor scenarios and metric labels; bounded capability descriptions",
+    "Retain separate MIT notices for CITE and CORE-EEAT benchmark source material",
+    "Restore byte-exact pinned Apache license",
+    "Fictional reserved-domain subjects and synthetic citation records replace illustrative real-company/person examples; CORE-EEAT O05 schema mapping scope explicitly retains MIT attribution."
+  ],
+  "base_file_revision_note": "Skill versions are the bundled frontmatter declarations. Base skills are adapted; no single upstream commit is asserted for all base files. File hashes identify the distributed content.",
+  "shared_dependencies": {
+    "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+    "notice_status": "No NOTICE file in the pinned upstream tree",
+    "execution_boundary": "Wiki lint is bundled Markdown execution instructions, not a new registered host command. hooks/hooks.json is preserved reference configuration, not activated. Optional connector categories remain data integrations requiring actual available authorization/tools."
+  },
+  "files": [
+    {
+      "path": "payload/skills/seo-alert-manager/SKILL.md",
+      "sha256": "b1fe4f3043951a8a501e55d5dc07cae47261b4c1d24df6ddbe841fe28d88404e"
+    },
+    {
+      "path": "payload/skills/seo-alert-manager/references/alert-configuration-templates.md",
+      "sha256": "6879e775497600e8357c2f7b8bbfa02f092a2e9b880b247024a31336ad42408c"
+    },
+    {
+      "path": "payload/skills/seo-alert-manager/references/alert-threshold-guide.md",
+      "sha256": "d7ce6b4d1bc02efea28a59c7861b0f7cd520f8044bfd0f6feb41f0e0179bb68c"
+    },
+    {
+      "path": "payload/skills/seo-backlink-analyzer/SKILL.md",
+      "sha256": "ed854cdc606fc9ca1f44534f669242cea70210a9685c667cd5543aeef1d60d11"
+    },
+    {
+      "path": "payload/skills/seo-backlink-analyzer/references/analysis-templates.md",
+      "sha256": "61eae3f3072c529545c634e7263b65b6430f12f38b344fb4fc8d7fadd49e9564"
+    },
+    {
+      "path": "payload/skills/seo-backlink-analyzer/references/link-quality-rubric.md",
+      "sha256": "d6ba4c1bd8627997ebcceeea69a42259343fa78b9e11791b5c8a3e6246f71ad4"
+    },
+    {
+      "path": "payload/skills/seo-backlink-analyzer/references/outreach-templates.md",
+      "sha256": "adef64d9ae2025ec6a3048b630fb5bd90df3317c758d5ca585e34604c38e67b6"
+    },
+    {
+      "path": "payload/skills/seo-competitor-analysis/SKILL.md",
+      "sha256": "81071ae08cd9ed39ae546c61325e7280c85e43d618e76d26b7c662fa0e408c24"
+    },
+    {
+      "path": "payload/skills/seo-competitor-analysis/references/analysis-templates.md",
+      "sha256": "89697af88282c062a290c740ff03549a19e5188cebb4578259db39807cf08b9e"
+    },
+    {
+      "path": "payload/skills/seo-competitor-analysis/references/battlecard-template.md",
+      "sha256": "8844b5eed8016c036a33b49a67477aa75a16058faf859b69dd1593c768b909ec"
+    },
+    {
+      "path": "payload/skills/seo-competitor-analysis/references/example-report.md",
+      "sha256": "6680c9806f93a949f64463ef8fd5a6a35ccda65edda0016f6fc7f45401a8e909"
+    },
+    {
+      "path": "payload/skills/seo-competitor-analysis/references/positioning-frameworks.md",
+      "sha256": "4891e0b5c7a9fdfe2e1a05bbd6b9908b4e0b2f023a7accb9d6acd5cd0d09cf87"
+    },
+    {
+      "path": "payload/skills/seo-content-gap-analysis/SKILL.md",
+      "sha256": "34baf450af66e658ec445fd1f39a84fc4ea381e9d38d33e75b8a42a4e5353358"
+    },
+    {
+      "path": "payload/skills/seo-content-gap-analysis/references/analysis-templates.md",
+      "sha256": "8c440254848f5d6d6a1aaecb50a3e0f2e49dc397f03dec0091574296255aba81"
+    },
+    {
+      "path": "payload/skills/seo-content-gap-analysis/references/example-report.md",
+      "sha256": "500692d237aadc708dbcf31502e60c504f4b8855adbbed4822ed43ef95100705"
+    },
+    {
+      "path": "payload/skills/seo-content-gap-analysis/references/gap-analysis-frameworks.md",
+      "sha256": "d57ba6a34fe89a74b996cec92dbfcc882ead56c3d5d32d60e42ca09341b229fc"
+    },
+    {
+      "path": "payload/skills/seo-content-quality-auditor/SKILL.md",
+      "sha256": "dc953c9ebbbed004e847fbcb805b31d46d1d98640246f7cd391929693f78a5d2"
+    },
+    {
+      "path": "payload/skills/seo-content-quality-auditor/references/item-reference.md",
+      "sha256": "24878316e1b11e8593930a93f4d2d59cd5d53f08d0c0e13293739bcb39b9d00f"
+    },
+    {
+      "path": "payload/skills/seo-content-refresher/SKILL.md",
+      "sha256": "6d66355da938c437cbd3d4c8dfcae6ccf991fcdfc80300633fb650afd8f15181"
+    },
+    {
+      "path": "payload/skills/seo-content-refresher/references/content-decay-signals.md",
+      "sha256": "0e76ed867a1d106ef1340dfa29959d41ee30766c46d5327beb480b80333a5182"
+    },
+    {
+      "path": "payload/skills/seo-content-refresher/references/refresh-example.md",
+      "sha256": "55f4d3bfcbd0cd52cae84b5bbdb0ed3edaf129728210cbc35a6294c6d8f39a0b"
+    },
+    {
+      "path": "payload/skills/seo-content-refresher/references/refresh-templates.md",
+      "sha256": "7c6d42c7ca61a6976ff206424fec3af709901c0a8432578c82a24dfcb073e5d0"
+    },
+    {
+      "path": "payload/skills/seo-content-writer/SKILL.md",
+      "sha256": "7c7e31927cd5e9f92e55de18b50936306bb78c25ad78d445f6504e45f60ba6a3"
+    },
+    {
+      "path": "payload/skills/seo-content-writer/references/content-structure-templates.md",
+      "sha256": "5339b35b1e4e10b2fc17a5e9cc39c72c48020c429c3efd4a138574f07f80fb8b"
+    },
+    {
+      "path": "payload/skills/seo-content-writer/references/seo-writing-checklist.md",
+      "sha256": "a3dde340d8246e06075bd2029a92f28cfeeaf0006aee8d8006da45fc2ae11e98"
+    },
+    {
+      "path": "payload/skills/seo-content-writer/references/title-formulas.md",
+      "sha256": "42c3cda4bbf46ec6ca88668eddd5dac3e93de056e3f88770d22573ba2a9587d9"
+    },
+    {
+      "path": "payload/skills/seo-domain-authority-auditor/SKILL.md",
+      "sha256": "ca3ac3bde3800f2e262d6799ba110f26ae347c4cda20a82c219c523030c12d29"
+    },
+    {
+      "path": "payload/skills/seo-domain-authority-auditor/references/example-report.md",
+      "sha256": "c469b1d668557f96d4ab08d6f13d68ac8bfa686a67980b4194cb34ce84398b08"
+    },
+    {
+      "path": "payload/skills/seo-entity-optimizer/SKILL.md",
+      "sha256": "3af1ee94272326ae9d8f0bf0ff57e8692ddd361c06f3f46f86f9667e4382df9a"
+    },
+    {
+      "path": "payload/skills/seo-entity-optimizer/references/entity-signal-checklist.md",
+      "sha256": "e03013d03a8117a5151b841f5ad462a53bf494396b28350fbafd05a4c202d908"
+    },
+    {
+      "path": "payload/skills/seo-entity-optimizer/references/entity-type-reference.md",
+      "sha256": "f508fe0e2881e5b70c55af8512ed805e293e64be82d11cb8387e30d2cbc82db3"
+    },
+    {
+      "path": "payload/skills/seo-entity-optimizer/references/example-audit-report.md",
+      "sha256": "882acac106abf2caa874ad89736875abfab6c3393fca052d283298552d6a5f0e"
+    },
+    {
+      "path": "payload/skills/seo-entity-optimizer/references/knowledge-graph-guide.md",
+      "sha256": "5cc8f1118cf92548e6bed1508459ea88025be90f05e02dde76cdf713eb00e9d3"
+    },
+    {
+      "path": "payload/skills/seo-entity-optimizer/references/knowledge-panel-wikidata-guide.md",
+      "sha256": "2983ef5ef4fb83ef349ea4b880c6b961f7fc2393c34f7ba5febf18c51db40667"
+    },
+    {
+      "path": "payload/skills/seo-geo-content-optimizer/SKILL.md",
+      "sha256": "cc606c89b32a6bf167f17fbd78ef432fa6b99efad6a2bf7309532e688364fb57"
+    },
+    {
+      "path": "payload/skills/seo-geo-content-optimizer/references/ai-citation-patterns.md",
+      "sha256": "6257e9cff685ed27c1a674d11f764801d847a140397c245db54116d50e2f18a0"
+    },
+    {
+      "path": "payload/skills/seo-geo-content-optimizer/references/geo-optimization-techniques.md",
+      "sha256": "9e2c74b2bc7c7d8e8fbf4ed80e1293398840fe773ae5a745180b2755ca4a8e2c"
+    },
+    {
+      "path": "payload/skills/seo-geo-content-optimizer/references/quotable-content-examples.md",
+      "sha256": "96b47cb6ba6ebb67207ddf30334a670a524cef25d454266f0386b508201d2759"
+    },
+    {
+      "path": "payload/skills/seo-internal-linking-optimizer/SKILL.md",
+      "sha256": "b8b4f4b664568943b3b876222f76a508355634193e6fce4abf5a70992edbf9e1"
+    },
+    {
+      "path": "payload/skills/seo-internal-linking-optimizer/references/link-architecture-patterns.md",
+      "sha256": "7ce0cc09cd5834e604fec13add8510f20d12dae1570109dabd38cba9db719f2d"
+    },
+    {
+      "path": "payload/skills/seo-internal-linking-optimizer/references/linking-example.md",
+      "sha256": "98767083795b94f2fb1022b8b76ca2eca28f5cfcb895543a2094013583326eb5"
+    },
+    {
+      "path": "payload/skills/seo-internal-linking-optimizer/references/linking-templates.md",
+      "sha256": "21f25aad48e30763a010bdffacdb7f85ba0e5754e289c36b76fd55e74d3cf76c"
+    },
+    {
+      "path": "payload/skills/seo-keyword-research/SKILL.md",
+      "sha256": "78132f8bb1b3a476cb205b9c61c52814bb4d8a5bbea6cd3217f57726fadad9c8"
+    },
+    {
+      "path": "payload/skills/seo-keyword-research/references/example-report.md",
+      "sha256": "40214f13ab403309a65c07b510f0335c808f9ece427587d327c106b13c65e7de"
+    },
+    {
+      "path": "payload/skills/seo-keyword-research/references/keyword-intent-taxonomy.md",
+      "sha256": "4eb167d9f289c6456e1a6ab6c9662076c0af3b0c366fb230955ad50d3b840198"
+    },
+    {
+      "path": "payload/skills/seo-keyword-research/references/keyword-prioritization-framework.md",
+      "sha256": "68224ae7acf9afbe10f799981394732e204f79c3775019367afeb4aca5d71d5c"
+    },
+    {
+      "path": "payload/skills/seo-keyword-research/references/topic-cluster-templates.md",
+      "sha256": "d665363818ff54e2dd90382db2d1020c2f2abccaba44ba8b07b09b9c121fb55b"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/SKILL.md",
+      "sha256": "c816b64bfbd7a43eaf29f9ec70a2f9922c2a4e25595a8cd0f3c5843a3af190cd"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/references/examples.md",
+      "sha256": "2b38c63238206d29d112adef2dda4e341092e938566f337df3008e379a8b132b"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/references/glossary-template.md",
+      "sha256": "3f211f129545a2a2e1fcc7149531eac54ce34e7297e9ddb230ee8a7b6ed9f210"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/references/hot-cache-template.md",
+      "sha256": "15a7ff31b1ee52107f39d16a02cfbf179b5212b020b8fc36d675451ae0d3193b"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/references/promotion-demotion-rules.md",
+      "sha256": "115de1c19977eb293eead8650a156c477999b01667c9ea679f5925c0b2e864f8"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/references/update-triggers-integration.md",
+      "sha256": "49abb794aeff0539ef727b07708552ff3edadb89000d03778609fbd05ebc9824"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/CITE-LICENSE",
+      "sha256": "50c738992d78e37f12579ba89888591250158741abfe3efb51702afd905cfa9e",
+      "original_source": "https://github.com/aaron-he-zhu/cite-domain-rating/tree/2e669c5c801aca6bc8c5f5df3b94ac734f00ff52",
+      "original_license": "MIT"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/CLAUDE.md",
+      "sha256": "ad1a1b53e8c80fc13636bfd75873de1c16c9a533d341f0da88a6f61bb087eac4",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/CLAUDE.md",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "50f2900ba882a89204cdc033940705fda78557ecd524702447e84f31b28bfb52"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/CONNECTORS.md",
+      "sha256": "e8c53b1e0715199cac2fadf6ec4df61b375df22a2b752b180ceea81c188ca888",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/CONNECTORS.md",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "e8c53b1e0715199cac2fadf6ec4df61b375df22a2b752b180ceea81c188ca888"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/CORE-EEAT-LICENSE",
+      "sha256": "50c738992d78e37f12579ba89888591250158741abfe3efb51702afd905cfa9e",
+      "original_source": "https://github.com/aaron-he-zhu/core-eeat-content-benchmark/tree/2a04c2f7c0010d6ed2102ff606f6032d4267b0dc",
+      "original_license": "MIT"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/LICENSE",
+      "sha256": "664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/LICENSE",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/commands/wiki-lint.md",
+      "sha256": "e50cb1835f25904187998fe5d9ea388cbf5f9ea3579610937572325114207375",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/commands/wiki-lint.md",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "5d51da99c1713ef750b558d13141d727cadc88ba6dc98c51b819986be7860b5e"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/hooks/hooks.json",
+      "sha256": "b41e8f1affc37bdfb8aa7a7a76ab30d013bce92b93b38327f8a9eae0c47f93d2",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/hooks/hooks.json",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "b41e8f1affc37bdfb8aa7a7a76ab30d013bce92b93b38327f8a9eae0c47f93d2"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/references/cite-domain-rating.md",
+      "sha256": "26eb158f4cb0149986decc5fdb30a46b9c19e42476984f38c1301554538451d3",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/references/cite-domain-rating.md",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "67aefa9075a79667eaeb7cb7393299c7cb4b570a07f1e93e30d0e3eab9d251ec",
+      "original_source": "https://github.com/aaron-he-zhu/cite-domain-rating/tree/2e669c5c801aca6bc8c5f5df3b94ac734f00ff52",
+      "original_license": "MIT"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/references/core-eeat-benchmark.md",
+      "sha256": "6e163bf1c83ed82b030ce117b21bacb5bea253ad2f844b51aabbe63d878daa6b",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/references/core-eeat-benchmark.md",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "4c7d02a9d78b9014d47fbe63180a3df5532d9c1fa078e7ad73d8f0abdb6dc17d",
+      "original_source": "https://github.com/aaron-he-zhu/core-eeat-content-benchmark/tree/2a04c2f7c0010d6ed2102ff606f6032d4267b0dc",
+      "original_license": "MIT"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/references/proposal-wiki-layer-v2.md",
+      "sha256": "bbfdd2a542c31d75207ec01473424e25497c2b467e725b245e702361082e8905",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/references/proposal-wiki-layer-v2.md",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "bbfdd2a542c31d75207ec01473424e25497c2b467e725b245e702361082e8905"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/references/proposal-wiki-layer-v3.md",
+      "sha256": "6f0fec0015dcd0e106944bcd06db66be80ba01ac28d99b91a3b6b78900d39d60",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/references/proposal-wiki-layer-v3.md",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "102f2ce69f933c5ee8da940206d06b0dc586fb792c0aa265ec49f13919364ef1"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/references/proposal-wiki-layer.md",
+      "sha256": "81240f730e86091825bbbf1eb20ad41f9e77327ff32ddf31dae5034cb2ef0d3b",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/references/proposal-wiki-layer.md",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "81240f730e86091825bbbf1eb20ad41f9e77327ff32ddf31dae5034cb2ef0d3b"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/references/skill-contract.md",
+      "sha256": "415eb81b79e7c7abcfde0f5a58defa5c2462a3cb499a4aa75b8430a9163a3c80",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/references/skill-contract.md",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "415eb81b79e7c7abcfde0f5a58defa5c2462a3cb499a4aa75b8430a9163a3c80"
+    },
+    {
+      "path": "payload/skills/seo-memory-management/upstream-shared/references/state-model.md",
+      "sha256": "771fc4035605fa2b85f2bd87132a300b6353cec81fc4374009076025e8ccceb0",
+      "upstream_url": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/406239d0bb699fa8cc670e7627e03af561da1eb7/references/state-model.md",
+      "upstream_commit": "406239d0bb699fa8cc670e7627e03af561da1eb7",
+      "upstream_sha256": "1944db8c19dc94109ddadd56bc5f4514203eec74432fb9d2472087fadf20b264"
+    },
+    {
+      "path": "payload/skills/seo-meta-tags-optimizer/SKILL.md",
+      "sha256": "f76de1b60b04e70ef99d1a5a868ad6e5c923da3ac0bfdeab7f00d16bb82409dc"
+    },
+    {
+      "path": "payload/skills/seo-meta-tags-optimizer/references/ctr-and-social-reference.md",
+      "sha256": "0f9703e372f12dbd6e238def281454e018b2292c7ee55f14cd8e386eef929581"
+    },
+    {
+      "path": "payload/skills/seo-meta-tags-optimizer/references/meta-tag-code-templates.md",
+      "sha256": "4b377b9d1cf35e88edd2cf49a19c822a4277f771581202da0df52bd46d759364"
+    },
+    {
+      "path": "payload/skills/seo-meta-tags-optimizer/references/meta-tag-formulas.md",
+      "sha256": "c0ca1d83ce446500b277f85565c9ef5ab096b0f0e0911f3459319d38d228f000"
+    },
+    {
+      "path": "payload/skills/seo-on-page-seo-auditor/SKILL.md",
+      "sha256": "3e19779aabd28bc114e9cef618c094fb0ea9f83a93a05ddfca32d4e9838f69da"
+    },
+    {
+      "path": "payload/skills/seo-on-page-seo-auditor/references/audit-example.md",
+      "sha256": "1f0952603cb7855ec13d1c44ddbc7df00623442aeb81308530dda367c45887d4"
+    },
+    {
+      "path": "payload/skills/seo-on-page-seo-auditor/references/audit-templates.md",
+      "sha256": "56994fa62d185be07a1e04f5a4160c06528151f538c5e7305ff4e8bdd5bdf2ba"
+    },
+    {
+      "path": "payload/skills/seo-on-page-seo-auditor/references/scoring-rubric.md",
+      "sha256": "d5e959bd911961abe2296c4dfe9b3c4235085d85b508851683f2d207b7efba51"
+    },
+    {
+      "path": "payload/skills/seo-performance-reporter/SKILL.md",
+      "sha256": "10da4d60f2a48d195a486a8fd6768e1ef067d4e611f0b15c5604a682f76e3533"
+    },
+    {
+      "path": "payload/skills/seo-performance-reporter/references/kpi-definitions.md",
+      "sha256": "d10a1013303065789bce00a46e8c6e14f3fcbe4e2ecda0d3caf35dfe72b8f7b6"
+    },
+    {
+      "path": "payload/skills/seo-performance-reporter/references/report-output-templates.md",
+      "sha256": "2221f4f339b6962641a236eeee7f80495915f673798b173d24ee6b379159f2ef"
+    },
+    {
+      "path": "payload/skills/seo-performance-reporter/references/report-templates.md",
+      "sha256": "249b7cd324ee0c7bd84291ed7d0c81d07c60f14b9b34bfa5e6c4ca0bb57f01cc"
+    },
+    {
+      "path": "payload/skills/seo-rank-tracker/SKILL.md",
+      "sha256": "f99110bcc36940fe5a606290ae062deeb2d0c6a9ff4a82e69b3f20f54105efdb"
+    },
+    {
+      "path": "payload/skills/seo-rank-tracker/references/ranking-analysis-templates.md",
+      "sha256": "112f92de637d5e9b2ac63bbd66895d0309c2c6b6f7b248e5355274b69232df92"
+    },
+    {
+      "path": "payload/skills/seo-rank-tracker/references/tracking-setup-guide.md",
+      "sha256": "eb38a39e64f7c4fff977d5ea62608145ad5caf470caa8426090c2f2745e95f5b"
+    },
+    {
+      "path": "payload/skills/seo-schema-markup-generator/SKILL.md",
+      "sha256": "fb95127eb667713ee6afe6b87b83139768edd158df96a84de544b7e1083280ac",
+      "additional_original_scope": {
+        "source": "https://github.com/aaron-he-zhu/core-eeat-content-benchmark/tree/2a04c2f7c0010d6ed2102ff606f6032d4267b0dc",
+        "section": "CORE-EEAT Schema Mapping (O05)",
+        "license": "MIT",
+        "license_path": "payload/skills/seo-memory-management/upstream-shared/CORE-EEAT-LICENSE"
+      }
+    },
+    {
+      "path": "payload/skills/seo-schema-markup-generator/references/schema-decision-tree.md",
+      "sha256": "14d5d4ddfb4e21a79830c60a45bf694a57168667cad06ff2b2800c6f586c21c3"
+    },
+    {
+      "path": "payload/skills/seo-schema-markup-generator/references/schema-templates.md",
+      "sha256": "1e60860ae918d1f8960bb3e347d05cfca56dff6084188f518038cd80f09e0b16"
+    },
+    {
+      "path": "payload/skills/seo-schema-markup-generator/references/validation-guide.md",
+      "sha256": "54b51afa1b12f99258e209bf9ee3513ce2b5d51248f094969ee9e774b4a7e75a"
+    },
+    {
+      "path": "payload/skills/seo-serp-analysis/SKILL.md",
+      "sha256": "16f98dd3b7b8b3544f69f611fa376d45506932bab7e674bf9a5492668668421d"
+    },
+    {
+      "path": "payload/skills/seo-serp-analysis/references/analysis-templates.md",
+      "sha256": "e5d1c69f04cc3cc753822b35fa4224dc60eb0adcf5d10447756b36dc32db9f7f"
+    },
+    {
+      "path": "payload/skills/seo-serp-analysis/references/example-report.md",
+      "sha256": "39df8525b2489d55c6e8aafc61c0fad81265491ff09795d4d7c327f6559d1931"
+    },
+    {
+      "path": "payload/skills/seo-serp-analysis/references/serp-feature-taxonomy.md",
+      "sha256": "e6a8252b00598a47b818bee190e836c5ab187283ee83ff8fbb590c992b6a71ae"
+    },
+    {
+      "path": "payload/skills/seo-technical-seo-checker/SKILL.md",
+      "sha256": "a8cd1503f89e38ea6b662667cd3e66484ed826865b20189b7b793b1a1c0c343d"
+    },
+    {
+      "path": "payload/skills/seo-technical-seo-checker/references/http-status-codes.md",
+      "sha256": "fee07ecfe57773cc812be07747762c9c52e284d89f0576e470d954c9e04bd89c"
+    },
+    {
+      "path": "payload/skills/seo-technical-seo-checker/references/robots-txt-reference.md",
+      "sha256": "a1887b94b87e07f24b46a0e4e896bfc1be4486cf7f19aaf0e537490471dc60bf"
+    },
+    {
+      "path": "payload/skills/seo-technical-seo-checker/references/technical-audit-example.md",
+      "sha256": "bb1b0e0a004adc5702309fb5eacbc2f33c52aa0060661893c040a0ca36fcbf02"
+    },
+    {
+      "path": "payload/skills/seo-technical-seo-checker/references/technical-audit-templates.md",
+      "sha256": "10000957403476bf144e05300cf404cc58a691624a1fe885232b96d8daacfb71"
+    }
+  ],
+  "benchmark_sources": [
+    {
+      "project": "cite-domain-rating",
+      "copyright": "2026 Aaron",
+      "license": "MIT",
+      "source": "https://github.com/aaron-he-zhu/cite-domain-rating/tree/2e669c5c801aca6bc8c5f5df3b94ac734f00ff52",
+      "license_path": "payload/skills/seo-memory-management/upstream-shared/CITE-LICENSE",
+      "adapted_reference": "payload/skills/seo-memory-management/upstream-shared/references/cite-domain-rating.md"
+    },
+    {
+      "project": "core-eeat-content-benchmark",
+      "copyright": "2026 Aaron",
+      "license": "MIT",
+      "source": "https://github.com/aaron-he-zhu/core-eeat-content-benchmark/tree/2a04c2f7c0010d6ed2102ff606f6032d4267b0dc",
+      "license_path": "payload/skills/seo-memory-management/upstream-shared/CORE-EEAT-LICENSE",
+      "adapted_reference": "payload/skills/seo-memory-management/upstream-shared/references/core-eeat-benchmark.md",
+      "additional_scope": {
+        "path": "payload/skills/seo-schema-markup-generator/SKILL.md",
+        "section": "CORE-EEAT Schema Mapping (O05)",
+        "license": "MIT",
+        "copyright": "2026 Aaron"
+      }
+    }
+  ]
+}
