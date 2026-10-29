@@ -3,6 +3,8 @@
   <img alt="Product Bench: Shared product context and workflows for your agent." src=".github/assets/banner-light.svg" width="880">
 </picture>
 
+<a href="https://www.producthunt.com/products/product-bench-gtm-engines?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-product-bench-gtm-engines" target="_blank" rel="noopener noreferrer"><img alt="Product Bench &amp; GTM Engines - AI workflows for product, content, community, and outbound | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1295907&amp;theme=light&amp;t=1793258717509"></a>
+
 [![Your product brain: reviewed customer, product and market knowledge powering research, strategy, specs, GTM, content and analytics, with approved learning fed back into shared context](.github/assets/demo-static.png)](.github/assets/demo.gif)
 
 Your product brain. Shared knowledge, sharper product work. [View animated demo](.github/assets/demo.gif) · [Demo notes](docs/DEMO.md).
